@@ -1,0 +1,10 @@
+/calparas/
+/codes/
+/configs/exp_configs/
+/data/
+/ne_yolov5/
+/ne_yolov8/
+/ne_yolov10/
+/runs/
+NOTE.md
+yolov8n.pt

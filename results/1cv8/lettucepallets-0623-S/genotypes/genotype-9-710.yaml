@@ -1,0 +1,69 @@
+nc: 1
+scales:
+  n:
+  - 1.0
+  - 1.0
+  - 1024
+backbone:
+- - -1
+  - 1
+  - Conv
+  - - 40
+    - 3
+    - 2
+    - 2
+- - 0
+  - 1
+  - Conv
+  - - 48
+    - 7
+    - 2
+- - -1
+  - 1
+  - Conv
+  - - 56
+    - 3
+    - 2
+- - -1
+  - 1
+  - SPPF
+  - - 56
+    - 5
+head:
+- - 3
+  - 1
+  - Conv
+  - - 48
+    - 3
+    - 1
+- - -1
+  - 1
+  - C2f
+  - - 48
+    - false
+- - -1
+  - 1
+  - Conv
+  - - 40
+    - 5
+    - 2
+- - - 6
+  - 1
+  - Detect
+  - - nc
+chain_num: 1
+chains:
+  backbone:
+  - - 1
+    - 2
+    - 3
+  head:
+  - - 0
+    - 1
+    - 2
+age: 1
+fitness: 0.3384
+final_fitness: 0.0
+fitness_history:
+- 0.3384
+genotype_key: 710

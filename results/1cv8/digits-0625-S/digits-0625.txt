@@ -1,0 +1,3192 @@
+|========== generation 1 ==========|
+|---------- dynamic state ----------|
+reproduce_freq: [1]
+add_cell_ratio: [60]
+modify_cell_freq: [1]
+crossover_ratio: [60]
+train_epoch: [4]
+
+|---------- species info ----------|
+species key - 4: 
+species members (2): [95, 128]
+species fitness - 0.5451
+species representative member info: 
+genotype key - 95
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 9: 
+species members (1): [118]
+species fitness - 0.4214
+species representative member info: 
+genotype key - 118
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'C2f', [40, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 3: 
+species members (4): [68, 114, 78, 123]
+species fitness - 0.4202
+species representative member info: 
+genotype key - 68
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 2: 
+species members (5): [88, 71, 97, 65, 103]
+species fitness - 0.406
+species representative member info: 
+genotype key - 88
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'Conv', [32, 1, 1]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 1: 
+species members (48): [127, 120, 85, 119, 75, 99, 113, 1, 2, 4, 6, 9, 11, 12, 17, 21, 22, 24, 25, 26, 27, 28, 29, 32, 37, 41, 42, 47, 49, 50, 51, 52, 53, 54, 59, 60, 61, 64, 66, 74, 76, 90, 96, 102, 109, 115, 117, 121]
+species fitness - 0.3773
+species representative member info: 
+genotype key - 127
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[[1], 1, 'Detect', ['nc']]
+
+species key - 5: 
+species members (1): [82]
+species fitness - 0.3543
+species representative member info: 
+genotype key - 82
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'C2f', [40, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 6: 
+species members (1): [112]
+species fitness - 0.3365
+species representative member info: 
+genotype key - 112
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'Conv', [32, 1, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 8: 
+species members (1): [110]
+species fitness - 0.3346
+species representative member info: 
+genotype key - 110
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'Conv', [40, 1, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 7: 
+species members (3): [94, 93, 124]
+species fitness - 0.3027
+species representative member info: 
+genotype key - 94
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'C2f', [32, False]]
+[[2], 1, 'Detect', ['nc']]
+
+species 4, fitness history: [0.5451]
+species 9, fitness history: [0.4214]
+species 3, fitness history: [0.4202]
+species 2, fitness history: [0.406]
+species 1, fitness history: [0.3773]
+species 5, fitness history: [0.3543]
+species 6, fitness history: [0.3365]
+species 8, fitness history: [0.3346]
+species 7, fitness history: [0.3027]
+
+|---------- population info ----------|
+best genotype: 
+genotype key - 95
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[[2], 1, 'Detect', ['nc']]
+fitness: 0.5451
+
+best genotype keys so far: [95]
+best genotype fitness so far: [0.5451]
+convergence rate: []
+generation time (h): [0.56]
+total time (h): 0.56
+
+
+
+
+
+|========== generation 2 ==========|
+|---------- dynamic state ----------|
+reproduce_freq: [1, 1]
+add_cell_ratio: [60, 60]
+modify_cell_freq: [1, 1]
+crossover_ratio: [60, 60]
+train_epoch: [4, 4]
+
+|---------- species info ----------|
+species key - 13: 
+species members (1): [176]
+species fitness - 0.7394
+species representative member info: 
+genotype key - 176
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'Conv', [32, 7, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 4: 
+species members (4): [95, 130, 182, 187]
+species fitness - 0.5451
+species representative member info: 
+genotype key - 95
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 14: 
+species members (1): [191]
+species fitness - 0.5223
+species representative member info: 
+genotype key - 191
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [40, 5, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 5: 
+species members (2): [193, 82]
+species fitness - 0.4477
+species representative member info: 
+genotype key - 193
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [40, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 9: 
+species members (2): [118, 131]
+species fitness - 0.4214
+species representative member info: 
+genotype key - 118
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'C2f', [40, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 3: 
+species members (7): [68, 114, 186, 159, 151, 123, 178]
+species fitness - 0.4202
+species representative member info: 
+genotype key - 68
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 10: 
+species members (1): [132]
+species fitness - 0.4184
+species representative member info: 
+genotype key - 132
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 2: 
+species members (9): [88, 160, 180, 103, 71, 177, 145, 97, 149]
+species fitness - 0.406
+species representative member info: 
+genotype key - 88
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'Conv', [32, 1, 1]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 1: 
+species members (33): [66, 127, 170, 115, 120, 74, 85, 146, 119, 155, 75, 99, 173, 113, 1, 25, 27, 28, 29, 49, 51, 60, 64, 76, 102, 109, 121, 129, 161, 162, 165, 166, 175]
+species fitness - 0.3774
+species representative member info: 
+genotype key - 66
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[[1], 1, 'Detect', ['nc']]
+
+species key - 6: 
+species members (2): [112, 190]
+species fitness - 0.3365
+species representative member info: 
+genotype key - 112
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'Conv', [32, 1, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 7: 
+species members (5): [150, 94, 93, 171, 143]
+species fitness - 0.3213
+species representative member info: 
+genotype key - 150
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'SPPF', [40, 5]]
+[1, 1, 'C2f', [40, False]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 8: 
+species members (1): [134]
+species fitness - 0.3075
+species representative member info: 
+genotype key - 134
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'Conv', [32, 1, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 15: 
+species members (1): [194]
+species fitness - 0.2845
+species representative member info: 
+genotype key - 194
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'SPPF', [40, 5]]
+[1, 1, 'C2f', [32, False]]
+[-1, 1, 'C2f', [32, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 12: 
+species members (1): [167]
+species fitness - 0.2532
+species representative member info: 
+genotype key - 167
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'SPPF', [40, 5]]
+[1, 1, 'Conv', [32, 1, 1]]
+[-1, 1, 'C2f', [48, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 11: 
+species members (1): [133]
+species fitness - 0.0569
+species representative member info: 
+genotype key - 133
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'Conv', [32, 3, 3]]
+[-1, 1, 'SPPF', [32, 5]]
+[[3], 1, 'Detect', ['nc']]
+
+species 13, fitness history: [0.7394]
+species 4, fitness history: [0.5451, 0.5451]
+species 14, fitness history: [0.5223]
+species 5, fitness history: [0.3543, 0.4477]
+species 9, fitness history: [0.4214, 0.4214]
+species 3, fitness history: [0.4202, 0.4202]
+species 10, fitness history: [0.4184]
+species 2, fitness history: [0.406, 0.406]
+species 1, fitness history: [0.3773, 0.3774]
+species 6, fitness history: [0.3365, 0.3365]
+species 7, fitness history: [0.3027, 0.3213]
+species 8, fitness history: [0.3346, 0.3075]
+species 15, fitness history: [0.2845]
+species 12, fitness history: [0.2532]
+species 11, fitness history: [0.0569]
+
+|---------- population info ----------|
+best genotype: 
+genotype key - 176
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'Conv', [32, 7, 1]]
+[[4], 1, 'Detect', ['nc']]
+fitness: 0.7394
+
+best genotype keys so far: [95, 176]
+best genotype fitness so far: [0.5451, 0.7394]
+convergence rate: []
+generation time (h): [0.56, 1.0]
+total time (h): 1.56
+
+
+
+
+
+|========== generation 3 ==========|
+|---------- dynamic state ----------|
+reproduce_freq: [1, 1, 1]
+add_cell_ratio: [60, 60, 60]
+modify_cell_freq: [1, 1, 1]
+crossover_ratio: [60, 60, 60]
+train_epoch: [4, 4, 4]
+
+|---------- species info ----------|
+species key - 13: 
+species members (1): [176]
+species fitness - 0.7394
+species representative member info: 
+genotype key - 176
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'Conv', [32, 7, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 25: 
+species members (1): [262]
+species fitness - 0.6224
+species representative member info: 
+genotype key - 262
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [32, 5, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 14: 
+species members (2): [191, 247]
+species fitness - 0.5223
+species representative member info: 
+genotype key - 191
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [40, 5, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 4: 
+species members (5): [130, 236, 182, 224, 187]
+species fitness - 0.5016
+species representative member info: 
+genotype key - 130
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 7: 
+species members (6): [241, 94, 93, 171, 227, 240]
+species fitness - 0.4945
+species representative member info: 
+genotype key - 241
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'C2f', [48, False]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 21: 
+species members (1): [219]
+species fitness - 0.4629
+species representative member info: 
+genotype key - 219
+genotype dict:
+[-1, 1, 'Conv', [48, 6, 2, 2]]
+[0, 1, 'SPPF', [48, 5]]
+[1, 1, 'C2f', [48, False]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[-1, 1, 'C2f', [48, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 16: 
+species members (1): [195]
+species fitness - 0.46
+species representative member info: 
+genotype key - 195
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[4, 1, 'Conv', [32, 7, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 5: 
+species members (2): [193, 82]
+species fitness - 0.4477
+species representative member info: 
+genotype key - 193
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [40, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 9: 
+species members (2): [118, 131]
+species fitness - 0.4214
+species representative member info: 
+genotype key - 118
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'C2f', [40, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 3: 
+species members (6): [68, 114, 252, 196, 159, 151]
+species fitness - 0.4202
+species representative member info: 
+genotype key - 68
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 10: 
+species members (1): [132]
+species fitness - 0.4184
+species representative member info: 
+genotype key - 132
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 1: 
+species members (22): [232, 253, 242, 66, 127, 170, 115, 120, 254, 74, 129, 85, 121, 146, 119, 155, 75, 99, 243, 173, 113, 263]
+species fitness - 0.4074
+species representative member info: 
+genotype key - 232
+genotype dict:
+[-1, 1, 'Conv', [48, 6, 2, 2]]
+[0, 1, 'SPPF', [48, 5]]
+[[1], 1, 'Detect', ['nc']]
+
+species key - 2: 
+species members (9): [88, 160, 225, 180, 103, 71, 149, 177, 145]
+species fitness - 0.406
+species representative member info: 
+genotype key - 88
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'Conv', [32, 1, 1]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 24: 
+species members (1): [256]
+species fitness - 0.3873
+species representative member info: 
+genotype key - 256
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [40, 5, 2]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 18: 
+species members (1): [203]
+species fitness - 0.3755
+species representative member info: 
+genotype key - 203
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'C2f', [32, False]]
+[-1, 1, 'C2f', [32, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 19: 
+species members (1): [205]
+species fitness - 0.3573
+species representative member info: 
+genotype key - 205
+genotype dict:
+[-1, 1, 'Conv', [32, 7, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[3, 1, 'C2f', [40, False]]
+[-1, 1, 'C2f', [32, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 17: 
+species members (1): [199]
+species fitness - 0.3476
+species representative member info: 
+genotype key - 199
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 6: 
+species members (3): [211, 112, 261]
+species fitness - 0.3435
+species representative member info: 
+genotype key - 211
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'Conv', [32, 1, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 8: 
+species members (3): [134, 217, 200]
+species fitness - 0.3075
+species representative member info: 
+genotype key - 134
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'Conv', [32, 1, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 15: 
+species members (1): [194]
+species fitness - 0.2845
+species representative member info: 
+genotype key - 194
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'SPPF', [40, 5]]
+[1, 1, 'C2f', [32, False]]
+[-1, 1, 'C2f', [32, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 23: 
+species members (1): [255]
+species fitness - 0.2722
+species representative member info: 
+genotype key - 255
+genotype dict:
+[-1, 1, 'Conv', [48, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'Conv', [32, 1, 1]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 22: 
+species members (1): [221]
+species fitness - 0.2521
+species representative member info: 
+genotype key - 221
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'SPPF', [40, 5]]
+[1, 1, 'Conv', [40, 1, 1]]
+[-1, 1, 'Conv', [40, 1, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 12: 
+species members (1): [259]
+species fitness - 0.2429
+species representative member info: 
+genotype key - 259
+genotype dict:
+[-1, 1, 'Conv', [32, 5, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'Conv', [32, 1, 1]]
+[-1, 1, 'C2f', [40, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 11: 
+species members (2): [133, 207]
+species fitness - 0.0569
+species representative member info: 
+genotype key - 133
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'Conv', [32, 3, 3]]
+[-1, 1, 'SPPF', [32, 5]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 20: 
+species members (1): [216]
+species fitness - 0.0418
+species representative member info: 
+genotype key - 216
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'Conv', [32, 3, 3]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[4, 1, 'Conv', [40, 1, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species 13, fitness history: [0.7394, 0.7394]
+species 25, fitness history: [0.6224]
+species 14, fitness history: [0.5223, 0.5223]
+species 4, fitness history: [0.5451, 0.5451, 0.5016]
+species 7, fitness history: [0.3027, 0.3213, 0.4945]
+species 21, fitness history: [0.4629]
+species 16, fitness history: [0.46]
+species 5, fitness history: [0.3543, 0.4477, 0.4477]
+species 9, fitness history: [0.4214, 0.4214, 0.4214]
+species 3, fitness history: [0.4202, 0.4202, 0.4202]
+species 10, fitness history: [0.4184, 0.4184]
+species 1, fitness history: [0.3773, 0.3774, 0.4074]
+species 2, fitness history: [0.406, 0.406, 0.406]
+species 24, fitness history: [0.3873]
+species 18, fitness history: [0.3755]
+species 19, fitness history: [0.3573]
+species 17, fitness history: [0.3476]
+species 6, fitness history: [0.3365, 0.3365, 0.3435]
+species 8, fitness history: [0.3346, 0.3075, 0.3075]
+species 15, fitness history: [0.2845, 0.2845]
+species 23, fitness history: [0.2722]
+species 22, fitness history: [0.2521]
+species 12, fitness history: [0.2532, 0.2429]
+species 11, fitness history: [0.0569, 0.0569]
+species 20, fitness history: [0.0418]
+
+|---------- population info ----------|
+best genotype: 
+genotype key - 176
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'Conv', [32, 7, 1]]
+[[4], 1, 'Detect', ['nc']]
+fitness: 0.7394
+
+best genotype keys so far: [95, 176, 176]
+best genotype fitness so far: [0.5451, 0.7394, 0.7394]
+convergence rate: []
+generation time (h): [0.56, 1.0, 1.04]
+total time (h): 2.6
+
+
+
+
+
+|========== generation 4 ==========|
+|---------- dynamic state ----------|
+reproduce_freq: [1, 1, 1, 1]
+add_cell_ratio: [60, 60, 60, 60]
+modify_cell_freq: [1, 1, 1, 1]
+crossover_ratio: [60, 60, 60, 60]
+train_epoch: [4, 4, 4, 4]
+
+|---------- species info ----------|
+species key - 13: 
+species members (1): [176]
+species fitness - 0.7394
+species representative member info: 
+genotype key - 176
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'Conv', [32, 7, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 26: 
+species members (1): [266]
+species fitness - 0.6992
+species representative member info: 
+genotype key - 266
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'C2f', [40, False]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 25: 
+species members (1): [262]
+species fitness - 0.6224
+species representative member info: 
+genotype key - 262
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [32, 5, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 22: 
+species members (2): [298, 221]
+species fitness - 0.5848
+species representative member info: 
+genotype key - 298
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'SPPF', [40, 5]]
+[1, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 34: 
+species members (1): [332]
+species fitness - 0.5534
+species representative member info: 
+genotype key - 332
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'C2f', [40, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 5: 
+species members (3): [285, 193, 82]
+species fitness - 0.5329
+species representative member info: 
+genotype key - 285
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [48, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 14: 
+species members (1): [247]
+species fitness - 0.5113
+species representative member info: 
+genotype key - 247
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [40, 5, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 4: 
+species members (6): [130, 236, 312, 182, 224, 187]
+species fitness - 0.5016
+species representative member info: 
+genotype key - 130
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 7: 
+species members (6): [241, 93, 171, 311, 227, 240]
+species fitness - 0.4945
+species representative member info: 
+genotype key - 241
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'C2f', [48, False]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 6: 
+species members (5): [324, 211, 319, 112, 273]
+species fitness - 0.4663
+species representative member info: 
+genotype key - 324
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'Conv', [32, 3, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 21: 
+species members (1): [219]
+species fitness - 0.4629
+species representative member info: 
+genotype key - 219
+genotype dict:
+[-1, 1, 'Conv', [48, 6, 2, 2]]
+[0, 1, 'SPPF', [48, 5]]
+[1, 1, 'C2f', [48, False]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[-1, 1, 'C2f', [48, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 27: 
+species members (1): [270]
+species fitness - 0.4627
+species representative member info: 
+genotype key - 270
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [32, False]]
+[-1, 1, 'C2f', [40, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 16: 
+species members (1): [195]
+species fitness - 0.46
+species representative member info: 
+genotype key - 195
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[4, 1, 'Conv', [32, 7, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 33: 
+species members (1): [331]
+species fitness - 0.4217
+species representative member info: 
+genotype key - 331
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'Conv', [32, 3, 1]]
+[-1, 1, 'SPPF', [32, 5]]
+[3, 1, 'Conv', [32, 1, 2]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 9: 
+species members (2): [118, 131]
+species fitness - 0.4214
+species representative member info: 
+genotype key - 118
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'C2f', [40, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 3: 
+species members (6): [68, 289, 114, 252, 196, 159]
+species fitness - 0.4202
+species representative member info: 
+genotype key - 68
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 10: 
+species members (1): [132]
+species fitness - 0.4184
+species representative member info: 
+genotype key - 132
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 30: 
+species members (1): [308]
+species fitness - 0.4117
+species representative member info: 
+genotype key - 308
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[4, 1, 'C2f', [32, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 2: 
+species members (7): [88, 160, 225, 180, 320, 103, 71]
+species fitness - 0.406
+species representative member info: 
+genotype key - 88
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'Conv', [32, 1, 1]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 1: 
+species members (14): [253, 242, 66, 127, 170, 115, 293, 316, 129, 85, 119, 99, 173, 113]
+species fitness - 0.391
+species representative member info: 
+genotype key - 253
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[[1], 1, 'Detect', ['nc']]
+
+species key - 24: 
+species members (2): [256, 322]
+species fitness - 0.3873
+species representative member info: 
+genotype key - 256
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [40, 5, 2]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 18: 
+species members (1): [203]
+species fitness - 0.3755
+species representative member info: 
+genotype key - 203
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'C2f', [32, False]]
+[-1, 1, 'C2f', [32, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 28: 
+species members (1): [279]
+species fitness - 0.3685
+species representative member info: 
+genotype key - 279
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'Conv', [32, 1, 1]]
+[-1, 1, 'C2f', [56, False]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[-1, 1, 'C2f', [48, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 19: 
+species members (1): [205]
+species fitness - 0.3573
+species representative member info: 
+genotype key - 205
+genotype dict:
+[-1, 1, 'Conv', [32, 7, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[3, 1, 'C2f', [40, False]]
+[-1, 1, 'C2f', [32, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 17: 
+species members (1): [199]
+species fitness - 0.3476
+species representative member info: 
+genotype key - 199
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 29: 
+species members (1): [306]
+species fitness - 0.3447
+species representative member info: 
+genotype key - 306
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[3, 1, 'C2f', [40, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 8: 
+species members (3): [275, 134, 217]
+species fitness - 0.3316
+species representative member info: 
+genotype key - 275
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'Conv', [40, 1, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 12: 
+species members (1): [268]
+species fitness - 0.3125
+species representative member info: 
+genotype key - 268
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'Conv', [40, 1, 1]]
+[-1, 1, 'C2f', [40, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 15: 
+species members (1): [194]
+species fitness - 0.2845
+species representative member info: 
+genotype key - 194
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'SPPF', [40, 5]]
+[1, 1, 'C2f', [32, False]]
+[-1, 1, 'C2f', [32, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 23: 
+species members (1): [255]
+species fitness - 0.2722
+species representative member info: 
+genotype key - 255
+genotype dict:
+[-1, 1, 'Conv', [48, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'Conv', [32, 1, 1]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 35: 
+species members (1): [336]
+species fitness - 0.2567
+species representative member info: 
+genotype key - 336
+genotype dict:
+[-1, 1, 'Conv', [48, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[3, 1, 'Conv', [32, 1, 1]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 36: 
+species members (1): [337]
+species fitness - 0.2402
+species representative member info: 
+genotype key - 337
+genotype dict:
+[-1, 1, 'Conv', [40, 3, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'Conv', [40, 1, 1]]
+[-1, 1, 'Conv', [40, 1, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species 13, fitness history: [0.7394, 0.7394, 0.7394]
+species 26, fitness history: [0.6992]
+species 25, fitness history: [0.6224, 0.6224]
+species 22, fitness history: [0.2521, 0.5848]
+species 34, fitness history: [0.5534]
+species 5, fitness history: [0.3543, 0.4477, 0.4477, 0.5329]
+species 14, fitness history: [0.5223, 0.5223, 0.5113]
+species 4, fitness history: [0.5451, 0.5451, 0.5016, 0.5016]
+species 7, fitness history: [0.3027, 0.3213, 0.4945, 0.4945]
+species 6, fitness history: [0.3365, 0.3365, 0.3435, 0.4663]
+species 21, fitness history: [0.4629, 0.4629]
+species 27, fitness history: [0.4627]
+species 16, fitness history: [0.46, 0.46]
+species 33, fitness history: [0.4217]
+species 9, fitness history: [0.4214, 0.4214, 0.4214, 0.4214]
+species 3, fitness history: [0.4202, 0.4202, 0.4202, 0.4202]
+species 10, fitness history: [0.4184, 0.4184, 0.4184]
+species 30, fitness history: [0.4117]
+species 2, fitness history: [0.406, 0.406, 0.406, 0.406]
+species 1, fitness history: [0.3773, 0.3774, 0.4074, 0.391]
+species 24, fitness history: [0.3873, 0.3873]
+species 18, fitness history: [0.3755, 0.3755]
+species 28, fitness history: [0.3685]
+species 19, fitness history: [0.3573, 0.3573]
+species 17, fitness history: [0.3476, 0.3476]
+species 29, fitness history: [0.3447]
+species 8, fitness history: [0.3346, 0.3075, 0.3075, 0.3316]
+species 12, fitness history: [0.2532, 0.2429, 0.3125]
+species 15, fitness history: [0.2845, 0.2845, 0.2845]
+species 23, fitness history: [0.2722, 0.2722]
+species 35, fitness history: [0.2567]
+species 36, fitness history: [0.2402]
+
+|---------- population info ----------|
+best genotype: 
+genotype key - 176
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'Conv', [32, 7, 1]]
+[[4], 1, 'Detect', ['nc']]
+fitness: 0.7394
+
+best genotype keys so far: [95, 176, 176, 176]
+best genotype fitness so far: [0.5451, 0.7394, 0.7394, 0.7394]
+convergence rate: []
+generation time (h): [0.56, 1.0, 1.04, 0.95]
+total time (h): 3.55
+
+
+
+
+
+|========== generation 5 ==========|
+|---------- dynamic state ----------|
+reproduce_freq: [1, 1, 1, 1, 1]
+add_cell_ratio: [60, 60, 60, 60, 60]
+modify_cell_freq: [1, 1, 1, 1, 1]
+crossover_ratio: [60, 60, 60, 60, 60]
+train_epoch: [4, 4, 4, 4, 4]
+
+|---------- species info ----------|
+species key - 39: 
+species members (1): [342]
+species fitness - 0.7688
+species representative member info: 
+genotype key - 342
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'SPPF', [48, 5]]
+[3, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 13: 
+species members (1): [176]
+species fitness - 0.7394
+species representative member info: 
+genotype key - 176
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'Conv', [32, 7, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 26: 
+species members (1): [266]
+species fitness - 0.6992
+species representative member info: 
+genotype key - 266
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'C2f', [40, False]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 25: 
+species members (2): [262, 344]
+species fitness - 0.6224
+species representative member info: 
+genotype key - 262
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [32, 5, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 51: 
+species members (1): [411]
+species fitness - 0.5903
+species representative member info: 
+genotype key - 411
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'C2f', [48, False]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[-1, 1, 'C2f', [48, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 22: 
+species members (4): [298, 221, 388, 403]
+species fitness - 0.5848
+species representative member info: 
+genotype key - 298
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'SPPF', [40, 5]]
+[1, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 34: 
+species members (2): [332, 409]
+species fitness - 0.5534
+species representative member info: 
+genotype key - 332
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'C2f', [40, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 9: 
+species members (4): [347, 382, 118, 131]
+species fitness - 0.5504
+species representative member info: 
+genotype key - 347
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [40, 3, 2]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [48, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 52: 
+species members (1): [414]
+species fitness - 0.5378
+species representative member info: 
+genotype key - 414
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [40, 3, 2]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'Conv', [40, 1, 1]]
+[-1, 1, 'C2f', [40, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 5: 
+species members (4): [285, 359, 193, 82]
+species fitness - 0.5329
+species representative member info: 
+genotype key - 285
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [48, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 41: 
+species members (1): [351]
+species fitness - 0.5127
+species representative member info: 
+genotype key - 351
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[5, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [40, 5, 1]]
+[[7], 1, 'Detect', ['nc']]
+
+species key - 14: 
+species members (2): [247, 405]
+species fitness - 0.5113
+species representative member info: 
+genotype key - 247
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [40, 5, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 46: 
+species members (1): [373]
+species fitness - 0.5055
+species representative member info: 
+genotype key - 373
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'C2f', [40, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 48: 
+species members (1): [402]
+species fitness - 0.5049
+species representative member info: 
+genotype key - 402
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [40, 5]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 4: 
+species members (6): [130, 236, 312, 182, 224, 187]
+species fitness - 0.5016
+species representative member info: 
+genotype key - 130
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 7: 
+species members (6): [241, 397, 360, 171, 311, 240]
+species fitness - 0.4945
+species representative member info: 
+genotype key - 241
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'C2f', [48, False]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 6: 
+species members (6): [324, 211, 319, 112, 273, 364]
+species fitness - 0.4663
+species representative member info: 
+genotype key - 324
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'Conv', [32, 3, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 21: 
+species members (2): [219, 415]
+species fitness - 0.4629
+species representative member info: 
+genotype key - 219
+genotype dict:
+[-1, 1, 'Conv', [48, 6, 2, 2]]
+[0, 1, 'SPPF', [48, 5]]
+[1, 1, 'C2f', [48, False]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[-1, 1, 'C2f', [48, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 27: 
+species members (2): [270, 356]
+species fitness - 0.4627
+species representative member info: 
+genotype key - 270
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [32, False]]
+[-1, 1, 'C2f', [40, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 16: 
+species members (2): [195, 371]
+species fitness - 0.46
+species representative member info: 
+genotype key - 195
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[4, 1, 'Conv', [32, 7, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 47: 
+species members (1): [381]
+species fitness - 0.4535
+species representative member info: 
+genotype key - 381
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 43: 
+species members (1): [366]
+species fitness - 0.4373
+species representative member info: 
+genotype key - 366
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[4, 1, 'Conv', [32, 3, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 33: 
+species members (2): [331, 408]
+species fitness - 0.4217
+species representative member info: 
+genotype key - 331
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'Conv', [32, 3, 1]]
+[-1, 1, 'SPPF', [32, 5]]
+[3, 1, 'Conv', [32, 1, 2]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 3: 
+species members (5): [68, 289, 114, 252, 380]
+species fitness - 0.4202
+species representative member info: 
+genotype key - 68
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 10: 
+species members (1): [132]
+species fitness - 0.4184
+species representative member info: 
+genotype key - 132
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 30: 
+species members (1): [308]
+species fitness - 0.4117
+species representative member info: 
+genotype key - 308
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[4, 1, 'C2f', [32, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 2: 
+species members (6): [88, 225, 180, 320, 103, 71]
+species fitness - 0.406
+species representative member info: 
+genotype key - 88
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'Conv', [32, 1, 1]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 45: 
+species members (1): [370]
+species fitness - 0.4057
+species representative member info: 
+genotype key - 370
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'SPPF', [48, 5]]
+[2, 1, 'C2f', [32, False]]
+[-1, 1, 'C2f', [32, False]]
+[-1, 1, 'C2f', [40, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 1: 
+species members (10): [253, 66, 127, 170, 293, 316, 378, 85, 119, 113]
+species fitness - 0.391
+species representative member info: 
+genotype key - 253
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[[1], 1, 'Detect', ['nc']]
+
+species key - 24: 
+species members (2): [256, 322]
+species fitness - 0.3873
+species representative member info: 
+genotype key - 256
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [40, 5, 2]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 23: 
+species members (3): [394, 255, 416]
+species fitness - 0.3772
+species representative member info: 
+genotype key - 394
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'Conv', [32, 1, 1]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 18: 
+species members (2): [203, 406]
+species fitness - 0.3755
+species representative member info: 
+genotype key - 203
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'C2f', [32, False]]
+[-1, 1, 'C2f', [32, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species 39, fitness history: [0.7688]
+species 13, fitness history: [0.7394, 0.7394, 0.7394, 0.7394]
+species 26, fitness history: [0.6992, 0.6992]
+species 25, fitness history: [0.6224, 0.6224, 0.6224]
+species 51, fitness history: [0.5903]
+species 22, fitness history: [0.2521, 0.5848, 0.5848]
+species 34, fitness history: [0.5534, 0.5534]
+species 9, fitness history: [0.4214, 0.4214, 0.4214, 0.4214, 0.5504]
+species 52, fitness history: [0.5378]
+species 5, fitness history: [0.3543, 0.4477, 0.4477, 0.5329, 0.5329]
+species 41, fitness history: [0.5127]
+species 14, fitness history: [0.5223, 0.5223, 0.5113, 0.5113]
+species 46, fitness history: [0.5055]
+species 48, fitness history: [0.5049]
+species 4, fitness history: [0.5451, 0.5451, 0.5016, 0.5016, 0.5016]
+species 7, fitness history: [0.3027, 0.3213, 0.4945, 0.4945, 0.4945]
+species 6, fitness history: [0.3365, 0.3365, 0.3435, 0.4663, 0.4663]
+species 21, fitness history: [0.4629, 0.4629, 0.4629]
+species 27, fitness history: [0.4627, 0.4627]
+species 16, fitness history: [0.46, 0.46, 0.46]
+species 47, fitness history: [0.4535]
+species 43, fitness history: [0.4373]
+species 33, fitness history: [0.4217, 0.4217]
+species 3, fitness history: [0.4202, 0.4202, 0.4202, 0.4202, 0.4202]
+species 10, fitness history: [0.4184, 0.4184, 0.4184, 0.4184]
+species 30, fitness history: [0.4117, 0.4117]
+species 2, fitness history: [0.406, 0.406, 0.406, 0.406, 0.406]
+species 45, fitness history: [0.4057]
+species 1, fitness history: [0.3773, 0.3774, 0.4074, 0.391, 0.391]
+species 24, fitness history: [0.3873, 0.3873, 0.3873]
+species 23, fitness history: [0.2722, 0.2722, 0.3772]
+species 18, fitness history: [0.3755, 0.3755, 0.3755]
+
+|---------- population info ----------|
+best genotype: 
+genotype key - 342
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'SPPF', [48, 5]]
+[3, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[5], 1, 'Detect', ['nc']]
+fitness: 0.7688
+
+best genotype keys so far: [95, 176, 176, 176, 342]
+best genotype fitness so far: [0.5451, 0.7394, 0.7394, 0.7394, 0.7688]
+convergence rate: []
+generation time (h): [0.56, 1.0, 1.04, 0.95, 1.08]
+total time (h): 4.63
+
+
+
+
+
+|========== generation 6 ==========|
+|---------- dynamic state ----------|
+reproduce_freq: [1, 1, 1, 1, 1, 1]
+add_cell_ratio: [60, 60, 60, 60, 60, 60]
+modify_cell_freq: [1, 1, 1, 1, 1, 1]
+crossover_ratio: [60, 60, 60, 60, 60, 60]
+train_epoch: [4, 4, 4, 4, 4, 4]
+
+|---------- species info ----------|
+species key - 54: 
+species members (1): [419]
+species fitness - 0.8103
+species representative member info: 
+genotype key - 419
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'SPPF', [48, 5]]
+[4, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[6], 1, 'Detect', ['nc']]
+
+species key - 39: 
+species members (2): [342, 429]
+species fitness - 0.7688
+species representative member info: 
+genotype key - 342
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'SPPF', [48, 5]]
+[3, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 13: 
+species members (1): [176]
+species fitness - 0.7394
+species representative member info: 
+genotype key - 176
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'Conv', [32, 7, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 57: 
+species members (1): [424]
+species fitness - 0.7117
+species representative member info: 
+genotype key - 424
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[3, 1, 'C2f', [48, False]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[-1, 1, 'C2f', [48, False]]
+[[6], 1, 'Detect', ['nc']]
+
+species key - 26: 
+species members (1): [266]
+species fitness - 0.6992
+species representative member info: 
+genotype key - 266
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'C2f', [40, False]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 30: 
+species members (2): [432, 308]
+species fitness - 0.6779
+species representative member info: 
+genotype key - 432
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[4, 1, 'C2f', [48, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 64: 
+species members (1): [451]
+species fitness - 0.6594
+species representative member info: 
+genotype key - 451
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'C2f', [48, False]]
+[-1, 1, 'Conv', [32, 5, 1]]
+[-1, 1, 'C2f', [48, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 63: 
+species members (1): [445]
+species fitness - 0.6522
+species representative member info: 
+genotype key - 445
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'Conv', [40, 1, 1]]
+[-1, 1, 'C2f', [40, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 16: 
+species members (2): [371, 195]
+species fitness - 0.6318
+species representative member info: 
+genotype key - 371
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[4, 1, 'Conv', [32, 7, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 25: 
+species members (2): [262, 344]
+species fitness - 0.6224
+species representative member info: 
+genotype key - 262
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [32, 5, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 51: 
+species members (2): [411, 464]
+species fitness - 0.5903
+species representative member info: 
+genotype key - 411
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'C2f', [48, False]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[-1, 1, 'C2f', [48, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 22: 
+species members (4): [298, 482, 388, 403]
+species fitness - 0.5848
+species representative member info: 
+genotype key - 298
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'SPPF', [40, 5]]
+[1, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 33: 
+species members (2): [471, 331]
+species fitness - 0.5621
+species representative member info: 
+genotype key - 471
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'Conv', [32, 3, 1]]
+[-1, 1, 'SPPF', [32, 5]]
+[3, 1, 'Conv', [40, 1, 2]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 27: 
+species members (4): [452, 270, 356, 466]
+species fitness - 0.5572
+species representative member info: 
+genotype key - 452
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'C2f', [40, False]]
+[-1, 1, 'C2f', [32, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 34: 
+species members (2): [332, 409]
+species fitness - 0.5534
+species representative member info: 
+genotype key - 332
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'C2f', [40, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 9: 
+species members (4): [347, 382, 118, 131]
+species fitness - 0.5504
+species representative member info: 
+genotype key - 347
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [40, 3, 2]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [48, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 52: 
+species members (2): [414, 428]
+species fitness - 0.5378
+species representative member info: 
+genotype key - 414
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [40, 3, 2]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'Conv', [40, 1, 1]]
+[-1, 1, 'C2f', [40, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 5: 
+species members (5): [285, 359, 193, 82, 455]
+species fitness - 0.5329
+species representative member info: 
+genotype key - 285
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [48, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 41: 
+species members (1): [351]
+species fitness - 0.5127
+species representative member info: 
+genotype key - 351
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[5, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [40, 5, 1]]
+[[7], 1, 'Detect', ['nc']]
+
+species key - 14: 
+species members (4): [247, 483, 405, 421]
+species fitness - 0.5113
+species representative member info: 
+genotype key - 247
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [40, 5, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 68: 
+species members (1): [465]
+species fitness - 0.509
+species representative member info: 
+genotype key - 465
+genotype dict:
+[-1, 1, 'Conv', [48, 6, 2, 2]]
+[0, 1, 'Conv', [40, 3, 2]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [32, False]]
+[-1, 1, 'C2f', [40, False]]
+[-1, 1, 'C2f', [40, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 46: 
+species members (2): [373, 443]
+species fitness - 0.5055
+species representative member info: 
+genotype key - 373
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'C2f', [40, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 48: 
+species members (1): [402]
+species fitness - 0.5049
+species representative member info: 
+genotype key - 402
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [40, 5]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 4: 
+species members (6): [130, 446, 236, 182, 224, 187]
+species fitness - 0.5016
+species representative member info: 
+genotype key - 130
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 7: 
+species members (8): [241, 491, 397, 496, 463, 360, 311, 240]
+species fitness - 0.4945
+species representative member info: 
+genotype key - 241
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'C2f', [48, False]]
+[[2], 1, 'Detect', ['nc']]
+
+species key - 6: 
+species members (9): [324, 211, 319, 112, 462, 273, 364, 458, 499]
+species fitness - 0.4663
+species representative member info: 
+genotype key - 324
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'Conv', [32, 3, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 21: 
+species members (2): [219, 415]
+species fitness - 0.4629
+species representative member info: 
+genotype key - 219
+genotype dict:
+[-1, 1, 'Conv', [48, 6, 2, 2]]
+[0, 1, 'SPPF', [48, 5]]
+[1, 1, 'C2f', [48, False]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[-1, 1, 'C2f', [48, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 47: 
+species members (1): [381]
+species fitness - 0.4535
+species representative member info: 
+genotype key - 381
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 56: 
+species members (1): [423]
+species fitness - 0.4409
+species representative member info: 
+genotype key - 423
+genotype dict:
+[-1, 1, 'Conv', [48, 5, 2, 2]]
+[0, 1, 'SPPF', [48, 5]]
+[1, 1, 'C2f', [32, False]]
+[-1, 1, 'C2f', [40, False]]
+[-1, 1, 'Conv', [32, 5, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 43: 
+species members (1): [366]
+species fitness - 0.4373
+species representative member info: 
+genotype key - 366
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[4, 1, 'Conv', [32, 3, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 62: 
+species members (2): [444, 447]
+species fitness - 0.4372
+species representative member info: 
+genotype key - 444
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 61: 
+species members (1): [440]
+species fitness - 0.4361
+species representative member info: 
+genotype key - 440
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[6, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [40, 5, 1]]
+[[8], 1, 'Detect', ['nc']]
+
+species 54, fitness history: [0.8103]
+species 39, fitness history: [0.7688, 0.7688]
+species 13, fitness history: [0.7394, 0.7394, 0.7394, 0.7394, 0.7394]
+species 57, fitness history: [0.7117]
+species 26, fitness history: [0.6992, 0.6992, 0.6992]
+species 30, fitness history: [0.4117, 0.4117, 0.6779]
+species 64, fitness history: [0.6594]
+species 63, fitness history: [0.6522]
+species 16, fitness history: [0.46, 0.46, 0.46, 0.6318]
+species 25, fitness history: [0.6224, 0.6224, 0.6224, 0.6224]
+species 51, fitness history: [0.5903, 0.5903]
+species 22, fitness history: [0.2521, 0.5848, 0.5848, 0.5848]
+species 33, fitness history: [0.4217, 0.4217, 0.5621]
+species 27, fitness history: [0.4627, 0.4627, 0.5572]
+species 34, fitness history: [0.5534, 0.5534, 0.5534]
+species 9, fitness history: [0.4214, 0.4214, 0.4214, 0.4214, 0.5504, 0.5504]
+species 52, fitness history: [0.5378, 0.5378]
+species 5, fitness history: [0.3543, 0.4477, 0.4477, 0.5329, 0.5329, 0.5329]
+species 41, fitness history: [0.5127, 0.5127]
+species 14, fitness history: [0.5223, 0.5223, 0.5113, 0.5113, 0.5113]
+species 68, fitness history: [0.509]
+species 46, fitness history: [0.5055, 0.5055]
+species 48, fitness history: [0.5049, 0.5049]
+species 4, fitness history: [0.5451, 0.5451, 0.5016, 0.5016, 0.5016, 0.5016]
+species 7, fitness history: [0.3027, 0.3213, 0.4945, 0.4945, 0.4945, 0.4945]
+species 6, fitness history: [0.3365, 0.3365, 0.3435, 0.4663, 0.4663, 0.4663]
+species 21, fitness history: [0.4629, 0.4629, 0.4629, 0.4629]
+species 47, fitness history: [0.4535, 0.4535]
+species 56, fitness history: [0.4409]
+species 43, fitness history: [0.4373, 0.4373]
+species 62, fitness history: [0.4372]
+species 61, fitness history: [0.4361]
+
+|---------- population info ----------|
+best genotype: 
+genotype key - 419
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'SPPF', [48, 5]]
+[4, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[6], 1, 'Detect', ['nc']]
+fitness: 0.8103
+
+best genotype keys so far: [95, 176, 176, 176, 342, 419]
+best genotype fitness so far: [0.5451, 0.7394, 0.7394, 0.7394, 0.7688, 0.8103]
+convergence rate: [0.82]
+generation time (h): [0.56, 1.0, 1.04, 0.95, 1.08, 1.64]
+total time (h): 6.27
+
+
+
+
+
+|========== generation 7 ==========|
+|---------- dynamic state ----------|
+reproduce_freq: [1, 1, 1, 1, 1, 1, 1]
+add_cell_ratio: [60, 60, 60, 60, 60, 60, 60]
+modify_cell_freq: [1, 1, 1, 1, 1, 1, 1]
+crossover_ratio: [60, 60, 60, 60, 60, 60, 60]
+train_epoch: [4, 4, 4, 4, 4, 4, 4]
+
+|---------- species info ----------|
+species key - 100: 
+species members (1): [560]
+species fitness - 0.935
+species representative member info: 
+genotype key - 560
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 81: 
+species members (1): [509]
+species fitness - 0.8308
+species representative member info: 
+genotype key - 509
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [56, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'C2f', [40, False]]
+[-1, 1, 'C2f', [40, False]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[6], 1, 'Detect', ['nc']]
+
+species key - 54: 
+species members (1): [419]
+species fitness - 0.8103
+species representative member info: 
+genotype key - 419
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'SPPF', [48, 5]]
+[4, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[6], 1, 'Detect', ['nc']]
+
+species key - 39: 
+species members (3): [508, 342, 429]
+species fitness - 0.7708
+species representative member info: 
+genotype key - 508
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[3, 1, 'Conv', [40, 1, 1]]
+[-1, 1, 'Conv', [48, 1, 3]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 13: 
+species members (1): [176]
+species fitness - 0.7394
+species representative member info: 
+genotype key - 176
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'Conv', [32, 7, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 82: 
+species members (3): [510, 514, 563]
+species fitness - 0.7321
+species representative member info: 
+genotype key - 510
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[4, 1, 'C2f', [48, False]]
+[-1, 1, 'C2f', [48, False]]
+[[6], 1, 'Detect', ['nc']]
+
+species key - 85: 
+species members (1): [516]
+species fitness - 0.7193
+species representative member info: 
+genotype key - 516
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[3, 1, 'Conv', [32, 5, 1]]
+[-1, 1, 'C2f', [40, False]]
+[-1, 1, 'Conv', [32, 5, 1]]
+[[6], 1, 'Detect', ['nc']]
+
+species key - 57: 
+species members (2): [424, 512]
+species fitness - 0.7117
+species representative member info: 
+genotype key - 424
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[3, 1, 'C2f', [48, False]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[-1, 1, 'C2f', [48, False]]
+[[6], 1, 'Detect', ['nc']]
+
+species key - 26: 
+species members (1): [266]
+species fitness - 0.6992
+species representative member info: 
+genotype key - 266
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'C2f', [40, False]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 14: 
+species members (5): [421, 247, 483, 559, 405]
+species fitness - 0.6941
+species representative member info: 
+genotype key - 421
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'C2f', [48, False]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 79: 
+species members (2): [505, 530]
+species fitness - 0.6927
+species representative member info: 
+genotype key - 505
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'C2f', [56, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'SPPF', [48, 5]]
+[4, 1, 'C2f', [48, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 30: 
+species members (2): [432, 308]
+species fitness - 0.6779
+species representative member info: 
+genotype key - 432
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[4, 1, 'C2f', [48, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 46: 
+species members (3): [538, 373, 443]
+species fitness - 0.671
+species representative member info: 
+genotype key - 538
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'C2f', [56, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 64: 
+species members (2): [451, 518]
+species fitness - 0.6594
+species representative member info: 
+genotype key - 451
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'C2f', [48, False]]
+[-1, 1, 'Conv', [32, 5, 1]]
+[-1, 1, 'C2f', [48, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 98: 
+species members (1): [548]
+species fitness - 0.6583
+species representative member info: 
+genotype key - 548
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'SPPF', [48, 5]]
+[2, 1, 'C2f', [32, False]]
+[-1, 1, 'C2f', [48, False]]
+[-1, 1, 'C2f', [40, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 63: 
+species members (1): [445]
+species fitness - 0.6522
+species representative member info: 
+genotype key - 445
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'Conv', [40, 1, 1]]
+[-1, 1, 'C2f', [40, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 16: 
+species members (3): [371, 195, 525]
+species fitness - 0.6318
+species representative member info: 
+genotype key - 371
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[4, 1, 'Conv', [32, 7, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 25: 
+species members (3): [262, 344, 582]
+species fitness - 0.6224
+species representative member info: 
+genotype key - 262
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [32, 5, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 51: 
+species members (3): [411, 464, 555]
+species fitness - 0.5903
+species representative member info: 
+genotype key - 411
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'C2f', [48, False]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[-1, 1, 'C2f', [48, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 22: 
+species members (5): [298, 520, 482, 388, 403]
+species fitness - 0.5848
+species representative member info: 
+genotype key - 298
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'SPPF', [40, 5]]
+[1, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 48: 
+species members (2): [551, 402]
+species fitness - 0.5727
+species representative member info: 
+genotype key - 551
+genotype dict:
+[-1, 1, 'Conv', [32, 7, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 89: 
+species members (1): [524]
+species fitness - 0.5622
+species representative member info: 
+genotype key - 524
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'Conv', [32, 3, 1]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[4, 1, 'Conv', [40, 1, 2]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 33: 
+species members (2): [471, 331]
+species fitness - 0.5621
+species representative member info: 
+genotype key - 471
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'Conv', [32, 3, 1]]
+[-1, 1, 'SPPF', [32, 5]]
+[3, 1, 'Conv', [40, 1, 2]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 27: 
+species members (5): [452, 270, 517, 466, 356]
+species fitness - 0.5572
+species representative member info: 
+genotype key - 452
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'C2f', [40, False]]
+[-1, 1, 'C2f', [32, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 96: 
+species members (1): [543]
+species fitness - 0.5537
+species representative member info: 
+genotype key - 543
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [56, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[5, 1, 'Conv', [40, 5, 1]]
+[-1, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [40, 5, 1]]
+[[8], 1, 'Detect', ['nc']]
+
+species key - 34: 
+species members (3): [332, 409, 531]
+species fitness - 0.5534
+species representative member info: 
+genotype key - 332
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'C2f', [40, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 92: 
+species members (1): [534]
+species fitness - 0.5506
+species representative member info: 
+genotype key - 534
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[5, 1, 'C2f', [40, False]]
+[[6], 1, 'Detect', ['nc']]
+
+species key - 9: 
+species members (6): [347, 382, 118, 552, 131, 565]
+species fitness - 0.5504
+species representative member info: 
+genotype key - 347
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [40, 3, 2]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [48, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 5: 
+species members (7): [539, 285, 558, 359, 193, 82, 564]
+species fitness - 0.539
+species representative member info: 
+genotype key - 539
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [48, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 52: 
+species members (3): [414, 428, 536]
+species fitness - 0.5378
+species representative member info: 
+genotype key - 414
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [40, 3, 2]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'Conv', [40, 1, 1]]
+[-1, 1, 'C2f', [40, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 103: 
+species members (1): [570]
+species fitness - 0.5358
+species representative member info: 
+genotype key - 570
+genotype dict:
+[-1, 1, 'Conv', [40, 3, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'Conv', [40, 7, 1]]
+[-1, 1, 'Conv', [40, 3, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 83: 
+species members (2): [511, 549]
+species fitness - 0.5211
+species representative member info: 
+genotype key - 511
+genotype dict:
+[-1, 1, 'Conv', [48, 5, 2, 2]]
+[0, 1, 'SPPF', [48, 5]]
+[1, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'C2f', [32, False]]
+[[3], 1, 'Detect', ['nc']]
+
+species 100, fitness history: [0.935]
+species 81, fitness history: [0.8308]
+species 54, fitness history: [0.8103, 0.8103]
+species 39, fitness history: [0.7688, 0.7688, 0.7708]
+species 13, fitness history: [0.7394, 0.7394, 0.7394, 0.7394, 0.7394, 0.7394]
+species 82, fitness history: [0.7321]
+species 85, fitness history: [0.7193]
+species 57, fitness history: [0.7117, 0.7117]
+species 26, fitness history: [0.6992, 0.6992, 0.6992, 0.6992]
+species 14, fitness history: [0.5223, 0.5223, 0.5113, 0.5113, 0.5113, 0.6941]
+species 79, fitness history: [0.6927]
+species 30, fitness history: [0.4117, 0.4117, 0.6779, 0.6779]
+species 46, fitness history: [0.5055, 0.5055, 0.671]
+species 64, fitness history: [0.6594, 0.6594]
+species 98, fitness history: [0.6583]
+species 63, fitness history: [0.6522, 0.6522]
+species 16, fitness history: [0.46, 0.46, 0.46, 0.6318, 0.6318]
+species 25, fitness history: [0.6224, 0.6224, 0.6224, 0.6224, 0.6224]
+species 51, fitness history: [0.5903, 0.5903, 0.5903]
+species 22, fitness history: [0.2521, 0.5848, 0.5848, 0.5848, 0.5848]
+species 48, fitness history: [0.5049, 0.5049, 0.5727]
+species 89, fitness history: [0.5622]
+species 33, fitness history: [0.4217, 0.4217, 0.5621, 0.5621]
+species 27, fitness history: [0.4627, 0.4627, 0.5572, 0.5572]
+species 96, fitness history: [0.5537]
+species 34, fitness history: [0.5534, 0.5534, 0.5534, 0.5534]
+species 92, fitness history: [0.5506]
+species 9, fitness history: [0.4214, 0.4214, 0.4214, 0.4214, 0.5504, 0.5504, 0.5504]
+species 5, fitness history: [0.3543, 0.4477, 0.4477, 0.5329, 0.5329, 0.5329, 0.539]
+species 52, fitness history: [0.5378, 0.5378, 0.5378]
+species 103, fitness history: [0.5358]
+species 83, fitness history: [0.5211]
+
+|---------- population info ----------|
+best genotype: 
+genotype key - 560
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[4], 1, 'Detect', ['nc']]
+fitness: 0.935
+
+best genotype keys so far: [95, 176, 176, 176, 342, 419, 560]
+best genotype fitness so far: [0.5451, 0.7394, 0.7394, 0.7394, 0.7688, 0.8103, 0.935]
+convergence rate: [0.82, 0.77]
+generation time (h): [0.56, 1.0, 1.04, 0.95, 1.08, 1.64, 1.68]
+total time (h): 7.95
+
+
+
+
+
+|========== generation 8 ==========|
+|---------- dynamic state ----------|
+reproduce_freq: [1, 1, 1, 1, 1, 1, 1, 1]
+add_cell_ratio: [60, 60, 60, 60, 60, 60, 60, 60]
+modify_cell_freq: [1, 1, 1, 1, 1, 1, 1, 1]
+crossover_ratio: [60, 60, 60, 60, 60, 60, 60, 60]
+train_epoch: [4, 4, 4, 4, 4, 4, 4, 4]
+
+|---------- species info ----------|
+species key - 107: 
+species members (1): [583]
+species fitness - 0.9729
+species representative member info: 
+genotype key - 583
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 1, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [40, 7, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 136: 
+species members (1): [637]
+species fitness - 0.9474
+species representative member info: 
+genotype key - 637
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[3, 1, 'Conv', [40, 5, 2]]
+[-1, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [40, 5, 1]]
+[[6], 1, 'Detect', ['nc']]
+
+species key - 100: 
+species members (2): [560, 588]
+species fitness - 0.935
+species representative member info: 
+genotype key - 560
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 81: 
+species members (2): [509, 596]
+species fitness - 0.8308
+species representative member info: 
+genotype key - 509
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [56, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'C2f', [40, False]]
+[-1, 1, 'C2f', [40, False]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[6], 1, 'Detect', ['nc']]
+
+species key - 22: 
+species members (6): [587, 298, 520, 482, 388, 403]
+species fitness - 0.8188
+species representative member info: 
+genotype key - 587
+genotype dict:
+[-1, 1, 'Conv', [40, 7, 2, 2]]
+[0, 1, 'SPPF', [40, 5]]
+[1, 1, 'Conv', [40, 7, 1]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 54: 
+species members (2): [419, 585]
+species fitness - 0.8103
+species representative member info: 
+genotype key - 419
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'SPPF', [48, 5]]
+[4, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[6], 1, 'Detect', ['nc']]
+
+species key - 39: 
+species members (3): [508, 342, 429]
+species fitness - 0.7708
+species representative member info: 
+genotype key - 508
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[3, 1, 'Conv', [40, 1, 1]]
+[-1, 1, 'Conv', [48, 1, 3]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 129: 
+species members (1): [627]
+species fitness - 0.7471
+species representative member info: 
+genotype key - 627
+genotype dict:
+[-1, 1, 'Conv', [32, 7, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[4, 1, 'Conv', [40, 5, 1]]
+[-1, 1, 'C2f', [40, False]]
+[-1, 1, 'Conv', [32, 5, 1]]
+[[7], 1, 'Detect', ['nc']]
+
+species key - 13: 
+species members (1): [176]
+species fitness - 0.7394
+species representative member info: 
+genotype key - 176
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'Conv', [32, 7, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 82: 
+species members (4): [510, 563, 514, 592]
+species fitness - 0.7321
+species representative member info: 
+genotype key - 510
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[4, 1, 'C2f', [48, False]]
+[-1, 1, 'C2f', [48, False]]
+[[6], 1, 'Detect', ['nc']]
+
+species key - 85: 
+species members (1): [516]
+species fitness - 0.7193
+species representative member info: 
+genotype key - 516
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[3, 1, 'Conv', [32, 5, 1]]
+[-1, 1, 'C2f', [40, False]]
+[-1, 1, 'Conv', [32, 5, 1]]
+[[6], 1, 'Detect', ['nc']]
+
+species key - 57: 
+species members (4): [424, 512, 595, 638]
+species fitness - 0.7117
+species representative member info: 
+genotype key - 424
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[3, 1, 'C2f', [48, False]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[-1, 1, 'C2f', [48, False]]
+[[6], 1, 'Detect', ['nc']]
+
+species key - 26: 
+species members (1): [266]
+species fitness - 0.6992
+species representative member info: 
+genotype key - 266
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'C2f', [40, False]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 14: 
+species members (5): [421, 247, 483, 559, 405]
+species fitness - 0.6941
+species representative member info: 
+genotype key - 421
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'SPPF', [32, 5]]
+[1, 1, 'C2f', [48, False]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[3], 1, 'Detect', ['nc']]
+
+species key - 79: 
+species members (2): [505, 530]
+species fitness - 0.6927
+species representative member info: 
+genotype key - 505
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'C2f', [56, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'SPPF', [48, 5]]
+[4, 1, 'C2f', [48, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 114: 
+species members (1): [598]
+species fitness - 0.6901
+species representative member info: 
+genotype key - 598
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [40, 5, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 30: 
+species members (3): [432, 308, 642]
+species fitness - 0.6779
+species representative member info: 
+genotype key - 432
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[4, 1, 'C2f', [48, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 46: 
+species members (4): [538, 373, 443, 607]
+species fitness - 0.671
+species representative member info: 
+genotype key - 538
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'C2f', [56, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 121: 
+species members (1): [609]
+species fitness - 0.6691
+species representative member info: 
+genotype key - 609
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 1, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'C2f', [48, False]]
+[-1, 1, 'Conv', [32, 5, 1]]
+[-1, 1, 'C2f', [48, False]]
+[-1, 1, 'C2f', [48, False]]
+[[6], 1, 'Detect', ['nc']]
+
+species key - 64: 
+species members (3): [451, 518, 610]
+species fitness - 0.6594
+species representative member info: 
+genotype key - 451
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'C2f', [48, False]]
+[-1, 1, 'Conv', [32, 5, 1]]
+[-1, 1, 'C2f', [48, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 98: 
+species members (1): [548]
+species fitness - 0.6583
+species representative member info: 
+genotype key - 548
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'SPPF', [48, 5]]
+[2, 1, 'C2f', [32, False]]
+[-1, 1, 'C2f', [48, False]]
+[-1, 1, 'C2f', [40, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 108: 
+species members (1): [584]
+species fitness - 0.6581
+species representative member info: 
+genotype key - 584
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'C2f', [56, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[4, 1, 'C2f', [40, False]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[6], 1, 'Detect', ['nc']]
+
+species key - 110: 
+species members (1): [590]
+species fitness - 0.6577
+species representative member info: 
+genotype key - 590
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[4, 1, 'Conv', [40, 1, 1]]
+[-1, 1, 'C2f', [48, False]]
+[[6], 1, 'Detect', ['nc']]
+
+species key - 63: 
+species members (2): [445, 612]
+species fitness - 0.6522
+species representative member info: 
+genotype key - 445
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [40, 5]]
+[3, 1, 'Conv', [40, 1, 1]]
+[-1, 1, 'C2f', [40, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 16: 
+species members (4): [613, 371, 195, 525]
+species fitness - 0.6385
+species representative member info: 
+genotype key - 613
+genotype dict:
+[-1, 1, 'Conv', [32, 3, 2, 2]]
+[0, 1, 'C2f', [48, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'Conv', [32, 5, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[4, 1, 'Conv', [32, 7, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 25: 
+species members (4): [262, 344, 582, 618]
+species fitness - 0.6224
+species representative member info: 
+genotype key - 262
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [32, False]]
+[-1, 1, 'Conv', [32, 5, 1]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 125: 
+species members (2): [617, 616]
+species fitness - 0.612
+species representative member info: 
+genotype key - 617
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'Conv', [32, 5, 1]]
+[-1, 1, 'C2f', [40, False]]
+[-1, 1, 'Conv', [32, 5, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 27: 
+species members (7): [591, 452, 270, 517, 466, 654, 356]
+species fitness - 0.6114
+species representative member info: 
+genotype key - 591
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[2, 1, 'C2f', [40, False]]
+[-1, 1, 'C2f', [48, False]]
+[[4], 1, 'Detect', ['nc']]
+
+species key - 117: 
+species members (1): [603]
+species fitness - 0.6025
+species representative member info: 
+genotype key - 603
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'C2f', [56, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[5, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [32, 3, 1]]
+[[7], 1, 'Detect', ['nc']]
+
+species key - 109: 
+species members (1): [589]
+species fitness - 0.6019
+species representative member info: 
+genotype key - 589
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'C2f', [56, True]]
+[-1, 1, 'C2f', [40, True]]
+[-1, 1, 'SPPF', [40, 5]]
+[4, 1, 'Conv', [32, 7, 1]]
+[[5], 1, 'Detect', ['nc']]
+
+species key - 116: 
+species members (1): [602]
+species fitness - 0.5962
+species representative member info: 
+genotype key - 602
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'C2f', [64, True]]
+[-1, 1, 'C2f', [56, True]]
+[-1, 1, 'C2f', [48, True]]
+[-1, 1, 'SPPF', [48, 5]]
+[5, 1, 'C2f', [48, False]]
+[-1, 1, 'C2f', [48, False]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[[8], 1, 'Detect', ['nc']]
+
+species key - 51: 
+species members (4): [411, 464, 653, 555]
+species fitness - 0.5903
+species representative member info: 
+genotype key - 411
+genotype dict:
+[-1, 1, 'Conv', [32, 6, 2, 2]]
+[0, 1, 'C2f', [32, True]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'C2f', [48, False]]
+[-1, 1, 'Conv', [32, 1, 1]]
+[-1, 1, 'C2f', [48, False]]
+[[5], 1, 'Detect', ['nc']]
+
+species 107, fitness history: [0.9729]
+species 136, fitness history: [0.9474]
+species 100, fitness history: [0.935, 0.935]
+species 81, fitness history: [0.8308, 0.8308]
+species 22, fitness history: [0.2521, 0.5848, 0.5848, 0.5848, 0.5848, 0.8188]
+species 54, fitness history: [0.8103, 0.8103, 0.8103]
+species 39, fitness history: [0.7688, 0.7688, 0.7708, 0.7708]
+species 129, fitness history: [0.7471]
+species 13, fitness history: [0.7394, 0.7394, 0.7394, 0.7394, 0.7394, 0.7394, 0.7394]
+species 82, fitness history: [0.7321, 0.7321]
+species 85, fitness history: [0.7193, 0.7193]
+species 57, fitness history: [0.7117, 0.7117, 0.7117]
+species 26, fitness history: [0.6992, 0.6992, 0.6992, 0.6992, 0.6992]
+species 14, fitness history: [0.5223, 0.5223, 0.5113, 0.5113, 0.5113, 0.6941, 0.6941]
+species 79, fitness history: [0.6927, 0.6927]
+species 114, fitness history: [0.6901]
+species 30, fitness history: [0.4117, 0.4117, 0.6779, 0.6779, 0.6779]
+species 46, fitness history: [0.5055, 0.5055, 0.671, 0.671]
+species 121, fitness history: [0.6691]
+species 64, fitness history: [0.6594, 0.6594, 0.6594]
+species 98, fitness history: [0.6583, 0.6583]
+species 108, fitness history: [0.6581]
+species 110, fitness history: [0.6577]
+species 63, fitness history: [0.6522, 0.6522, 0.6522]
+species 16, fitness history: [0.46, 0.46, 0.46, 0.6318, 0.6318, 0.6385]
+species 25, fitness history: [0.6224, 0.6224, 0.6224, 0.6224, 0.6224, 0.6224]
+species 125, fitness history: [0.612]
+species 27, fitness history: [0.4627, 0.4627, 0.5572, 0.5572, 0.6114]
+species 117, fitness history: [0.6025]
+species 109, fitness history: [0.6019]
+species 116, fitness history: [0.5962]
+species 51, fitness history: [0.5903, 0.5903, 0.5903, 0.5903]
+
+|---------- population info ----------|
+best genotype: 
+genotype key - 583
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 1, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [40, 7, 1]]
+[[5], 1, 'Detect', ['nc']]
+fitness: 0.9729
+final fitness: 0.9895
+
+best genotype keys so far: [95, 176, 176, 176, 342, 419, 560, 583]
+best genotype fitness so far: [0.5451, 0.7394, 0.7394, 0.7394, 0.7688, 0.8103, 0.935, 0.9729]
+convergence rate: [0.82, 0.77, 0.75]
+generation time (h): [0.56, 1.0, 1.04, 0.95, 1.08, 1.64, 1.68, 6.41]
+total time (h): 14.36
+
+
+
+
+
+
+The SATISFIED individual:
+genotype key - 583
+genotype dict:
+[-1, 1, 'Conv', [40, 6, 1, 2]]
+[0, 1, 'Conv', [32, 3, 2]]
+[-1, 1, 'SPPF', [32, 5]]
+[2, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [32, 7, 1]]
+[-1, 1, 'Conv', [40, 7, 1]]
+[[5], 1, 'Detect', ['nc']]
+fitness: 0.9729
+final fitness: 0.9895
+
