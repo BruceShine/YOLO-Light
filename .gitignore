@@ -8,3 +8,4 @@
 /runs/
 NOTE.md
 yolov8n.pt
+*.log
