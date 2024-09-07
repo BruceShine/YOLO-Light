@@ -1,8 +1,8 @@
 from ultralytics import YOLO
 
 
-data = 'digits'
-yolo_light = './results/1cv10/digits-0702-S/genotype-16-1903-S.yaml'
+data = 'sodabottles'
+yolo_light = './results/1cv10/sodabottles-0702-S/genotype-20-2073-S.yaml'
 name = 'v10_'+ data
 
 data_train = './data/' + data + '.yaml'
@@ -19,8 +19,6 @@ model.train(data=data_train, epochs=300, batch=32, workers=8, device=[0, 1],
 
 # Evaluate the model's performance on the validation set
 val_model = YOLO('./' + project + '/' + name + '/weights/best.pt')
-val_model.val(project=project, name=name+'_val', batch=32, workers=8,
-              device=[0, 1], cache=True, exist_ok=True)
 
 # Perform object detection on an image using the model
 val_model.predict(source=data_pred, save=True, project=project, name=name+'_pred')

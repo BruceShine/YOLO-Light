@@ -1,3 +1,4 @@
+/__pycache__/
 /calparas/
 /codes/
 /configs/exp_configs/
@@ -6,7 +7,6 @@
 /ne_yolov8/
 /ne_yolov10/
 /runs/
-/yolo_light_pred/
 NOTE.md
 yolov8n.pt
 *.log
